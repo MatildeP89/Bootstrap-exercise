@@ -1,0 +1,90 @@
+html, body {background-color: cornflowerblue;
+height: 100%;
+margin: 0;
+background-image: url(assets/bg.jpg);
+font-family: fantasy;}
+
+nav {background-image: url(assets/bg\ gold.avif)}
+
+a.navbar-brand img{width: 40px;}
+
+div.cards.col-2, div.cards.col-3, div.cards.col-5.col-sm-5.col-md-3.col-lg-2{border-radius: 50px;
+overflow: hidden;
+background-color: beige;
+padding: 0;
+transition: opacity 0.5s;
+}
+
+div.cards:hover{cursor: pointer;
+opacity: 0.5;}
+
+div.cards img{
+    width: 100%;
+object-fit: cover;
+
+}
+
+
+a.nav-link, a.dropdown-item, a.navbar-brand {color: black;}
+
+   #allCardsDiv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 70px;
+    }
+
+    .content-wrapper {
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+  
+
+div.row {display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    margin-right: 10px;
+gap: 20px;}
+
+div.details {display: flex;
+flex-direction: column;
+align-items: center;}
+
+
+footer {background-image: url(assets/bg\ gold.avif);
+text-align: center;
+margin-top: 20px;
+}
+
+div.container-fluid button{background-color: rgb(209, 201, 90);
+color: rgb(0, 0, 0);
+}
+
+div.container-fluid button:hover {background-color: rgb(224, 238, 162);}
+
+
+h3 {text-align: center;
+margin-top: 10px;
+color: rgb(36, 30, 30);
+font-size: 40px;
+margin-bottom: 20px;}
+
+div#bestAlbum {background-image: url(assets/AdamsNeighbours.jpg);
+    margin-top: 20px;
+}
+
+ul.list-group li{background-color: transparent;
+border: none;
+color: black;
+font-size: 20px;
+text-align: center;
+
+}
+ul.list-group li:nth-child(1){color: rgb(172, 153, 46); }
+
+
+
+
+
